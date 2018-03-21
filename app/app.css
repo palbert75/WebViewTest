@@ -14,14 +14,10 @@ refer to http://docs.nativescript.org/ui/theme.
 
 .webview{
   
-    border-radius: 15; 
+   /* border-radius: 15;*/ 
     border-color: orange;
-    border-width: 5 10 15 20;
     border-width: 1;
    
   }
 
- WebView {
-    border-color: lightgray; 
-    border-width: 3;
-}
+ 

@@ -2,8 +2,8 @@
 
 <ScrollView>
         <StackLayout  background="gray">
-    <GridLayout rows="*,*,*" columns="*,*,*" height="800" background="blue">
-    <StackLayout col="0" row="0" colSpan="3" rowSpan="2" class=" m-5 webview" horizontalAligment="center">
+    <GridLayout rows="*,*,*" columns="*,*,*" height="800" background="transparent">
+    <StackLayout col="0" row="0" colSpan="3" rowSpan="2" background="gray" class=" m-5 webview" horizontalAligment="center">
         <WebView #webView src="~/www/index.html" column="0" (tap)="onTap($event)" width="100%"  height="100%"  class="webview" ></WebView>
     </StackLayout>
 </GridLayout>
