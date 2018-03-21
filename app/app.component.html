@@ -1,6 +1,19 @@
 <!-- https://docs.nativescript.org/angular/core-concepts/angular-navigation.html#page-router-outlet -->
-<StackLayout class="container">
-    <GridLayout rows="300" columns="200">
-        <WebView src="~/www/index.html" column="0"></WebView>
-    </GridLayout>
+
+<ScrollView>
+        <StackLayout  background="gray">
+    <GridLayout rows="*,*,*" columns="*,*,*" height="800" background="blue">
+    <StackLayout col="0" row="0" colSpan="3" rowSpan="2" class=" m-5 webview" horizontalAligment="center">
+        <WebView #webView src="~/www/index.html" column="0" (tap)="onTap($event)" width="100%"  height="100%"  class="webview" ></WebView>
+    </StackLayout>
+</GridLayout>
+<Label  background="white" text="Hello ez egy hosszab label szerintem" fontSize = "22" class="webview" horizontalAligment="center"></Label>
+<Image src="https://www.google.com/images/errors/logo_sm_2.png"  class=" m-5 webview" ></Image>
+
+<Button background="white" text="Hello"  class=" m-5 webview"></Button>
+<Label text="Hello" horizontalAligment="center"></Label>
+<Label text="Hello" ></Label>
+<Label text="Hello" ></Label>
+
 </StackLayout>
+</ScrollView>

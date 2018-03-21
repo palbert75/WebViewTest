@@ -7,6 +7,9 @@
 		"id": "org.nativescript.WebViewTest1",
 		"tns-ios": {
 			"version": "3.4.1"
+		},
+		"tns-android": {
+			"version": "3.4.2"
 		}
 	},
 	"dependencies": {
@@ -20,6 +23,7 @@
 		"@angular/platform-browser-dynamic": "~5.2.0",
 		"@angular/router": "~5.2.0",
 		"nativescript-angular": "~5.2.0",
+		"nativescript-ng-shadow": "^2.1.0",
 		"nativescript-theme-core": "~1.0.4",
 		"nativescript-webview-interface": "^1.4.2",
 		"reflect-metadata": "~0.1.8",
@@ -28,6 +32,10 @@
 		"zone.js": "~0.8.2"
 	},
 	"devDependencies": {
+		"babel-traverse": "6.26.0",
+		"babel-types": "6.26.0",
+		"babylon": "6.18.0",
+		"lazy": "1.0.11",
 		"nativescript-dev-typescript": "~0.6.0",
 		"typescript": "~2.6.2"
 	}
